@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: grid;
+	grid-template-rows: 1fr 3fr 1fr;
+}
+
+#header {
+	border: 1px solid black;
+	background-color: rgb(129, 160, 182);
+}
+
+#mainContent {
+	border: 2px dashed red;
+	background-color: rgb(22, 58, 77);
+}
+
+#footer {
+	border: 2px dotted blue;
+	background-color: rgb(57, 127, 150);
+}
